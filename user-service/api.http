@@ -1,0 +1,31 @@
+### DELETE BY ID
+DELETE http://localhost:8080/users/1
+Accept: application/json
+
+### UPDATE BY ID
+PUT http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+  "name": "aby1",
+  "role": "se"
+}
+
+### GET BY ID
+GET http://localhost:8080/users/3
+Accept: application/json
+
+### GET ALL
+GET http://localhost:8080/users
+Accept: application/json
+
+### CREATE
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "aby1",
+  "role": "se1"
+}
+
+###
