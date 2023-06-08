@@ -1,7 +1,7 @@
-package com.komodo.userservice.service;
+package com.komodo.serviceone.service;
 
-import com.komodo.userservice.entity.Payment;
-import com.komodo.userservice.repository.PaymentRepository;
+import com.komodo.serviceone.entity.Payment;
+import com.komodo.serviceone.repository.PaymentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

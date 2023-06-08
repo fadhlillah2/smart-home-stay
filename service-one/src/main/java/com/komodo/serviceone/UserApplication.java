@@ -1,4 +1,4 @@
-package com.komodo.userservice;
+package com.komodo.serviceone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

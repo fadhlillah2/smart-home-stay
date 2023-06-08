@@ -1,4 +1,4 @@
-package com.komodo.userservice.entity;
+package com.komodo.serviceone.entity;
 
 import lombok.Getter;
 import lombok.Setter;

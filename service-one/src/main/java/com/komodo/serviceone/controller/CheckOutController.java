@@ -1,7 +1,7 @@
-package com.komodo.userservice.controller;
+package com.komodo.serviceone.controller;
 
-import com.komodo.userservice.entity.CheckOut;
-import com.komodo.userservice.service.CheckOutService;
+import com.komodo.serviceone.entity.CheckOut;
+import com.komodo.serviceone.service.CheckOutService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

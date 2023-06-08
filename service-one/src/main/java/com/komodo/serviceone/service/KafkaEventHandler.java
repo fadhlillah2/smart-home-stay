@@ -1,4 +1,4 @@
-package com.komodo.userservice.service;
+package com.komodo.serviceone.service;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;

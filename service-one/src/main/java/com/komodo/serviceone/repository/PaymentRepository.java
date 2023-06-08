@@ -1,6 +1,6 @@
-package com.komodo.userservice.repository;
+package com.komodo.serviceone.repository;
 
-import com.komodo.userservice.entity.Payment;
+import com.komodo.serviceone.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PaymentRepository extends JpaRepository<Payment, Long> {

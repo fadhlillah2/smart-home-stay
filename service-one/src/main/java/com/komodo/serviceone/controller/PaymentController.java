@@ -1,7 +1,7 @@
-package com.komodo.userservice.controller;
+package com.komodo.serviceone.controller;
 
-import com.komodo.userservice.entity.Payment;
-import com.komodo.userservice.service.PaymentService;
+import com.komodo.serviceone.entity.Payment;
+import com.komodo.serviceone.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

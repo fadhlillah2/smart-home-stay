@@ -1,6 +1,6 @@
-package com.komodo.userservice.repository;
+package com.komodo.serviceone.repository;
 
-import com.komodo.userservice.entity.Facility;
+import com.komodo.serviceone.entity.Facility;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface FacilityRepository extends JpaRepository<Facility, Long> {

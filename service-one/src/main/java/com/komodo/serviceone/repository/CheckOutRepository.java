@@ -1,6 +1,6 @@
-package com.komodo.userservice.repository;
+package com.komodo.serviceone.repository;
 
-import com.komodo.userservice.entity.CheckOut;
+import com.komodo.serviceone.entity.CheckOut;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CheckOutRepository extends JpaRepository<CheckOut, Long> {

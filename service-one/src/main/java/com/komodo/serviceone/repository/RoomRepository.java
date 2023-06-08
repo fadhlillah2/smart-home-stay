@@ -1,6 +1,6 @@
-package com.komodo.userservice.repository;
+package com.komodo.serviceone.repository;
 
-import com.komodo.userservice.entity.Room;
+import com.komodo.serviceone.entity.Room;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

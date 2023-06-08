@@ -1,7 +1,7 @@
-package com.komodo.userservice.service;
+package com.komodo.serviceone.service;
 
-import com.komodo.userservice.entity.User;
-import com.komodo.userservice.repository.UserRepository;
+import com.komodo.serviceone.entity.User;
+import com.komodo.serviceone.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

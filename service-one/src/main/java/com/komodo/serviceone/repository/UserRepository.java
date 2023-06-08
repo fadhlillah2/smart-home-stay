@@ -1,6 +1,6 @@
-package com.komodo.userservice.repository;
+package com.komodo.serviceone.repository;
 
-import com.komodo.userservice.entity.User;
+import com.komodo.serviceone.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,4 +1,4 @@
-package com.komodo.userservice.entity;
+package com.komodo.serviceone.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,12 +9,13 @@ import java.time.LocalDateTime;
 @Entity
 @Setter
 @Getter
-public class CheckIn {
+@Table(name="payments")
+public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private Long userId;
-    private Long roomId;
-    private LocalDateTime checkInTime = LocalDateTime.now();
+    private Long checkInId;
+    private double amount;
+    private LocalDateTime paymentTime = LocalDateTime.now();
     // getters and setters
 }

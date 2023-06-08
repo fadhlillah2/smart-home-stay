@@ -1,7 +1,7 @@
-package com.komodo.userservice.controller;
+package com.komodo.serviceone.controller;
 
-import com.komodo.userservice.entity.Room;
-import com.komodo.userservice.service.RoomService;
+import com.komodo.serviceone.entity.Room;
+import com.komodo.serviceone.service.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

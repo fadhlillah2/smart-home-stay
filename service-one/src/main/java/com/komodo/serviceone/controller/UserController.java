@@ -1,7 +1,7 @@
-package com.komodo.userservice.controller;
+package com.komodo.serviceone.controller;
 
-import com.komodo.userservice.entity.User;
-import com.komodo.userservice.service.UserService;
+import com.komodo.serviceone.entity.User;
+import com.komodo.serviceone.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

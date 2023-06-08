@@ -1,7 +1,7 @@
-package com.komodo.userservice.service;
+package com.komodo.serviceone.service;
 
-import com.komodo.userservice.entity.CheckIn;
-import com.komodo.userservice.repository.CheckInRepository;
+import com.komodo.serviceone.entity.CheckIn;
+import com.komodo.serviceone.repository.CheckInRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
