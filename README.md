@@ -79,5 +79,3 @@ This project is licensed under the [MIT License](LICENSE).
 If you have any questions or run into any issues, please open an issue on this GitHub repository.
 
 ---
-
-Again, replace `https://github.com/yourusername/smart-homestay.git` with the actual URL of your GitHub repository. For the "System Architecture" section, you should replace "[Insert system architecture diagram here]" with a link to your diagram (you can add images to your README by uploading them to your repository and referencing them with a relative path). Finally, replace "[link to your Swagger UI]" with the actual link to your API documentation.
