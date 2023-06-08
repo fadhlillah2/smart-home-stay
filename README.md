@@ -21,7 +21,29 @@ Kafka events are produced when a user registers, a room is booked, and a payment
 - Apache Kafka
 
 ## System Architecture
+The system architecture for the Smart Home Stay solution could be roughly represented as follows:
 
+1. **User Interface**: This is where users interact with the system. They can register, check in and out, explore rooms, choose additional facilities, and so forth. This could be a web interface or a mobile app.
+
+2. **Application Server**: This is where the main logic of the system resides. The server receives requests from the user interface, interacts with the database and Kafka, and sends responses back to the user interface.
+
+   - **Controllers**: Handle incoming HTTP requests and delegate processing to the appropriate service.
+   - **Services**: Implement the main business logic of the application.
+   - **Repository**: Interface with the database to store and retrieve data.
+
+3. **Database**: This is where all the data of the system is stored. It holds tables for users, rooms, facilities, check-ins and check-outs, payments, etc.
+
+4. **Apache Kafka**: A distributed streaming platform used for building real-time data pipelines and streaming apps. Events such as user registrations, room bookings, and payments are published to Kafka topics, and can be processed in real-time or stored for later processing.
+
+The flow of data could be like this:
+
+- Users send requests from the User Interface to the Application Server.
+- The Application Server processes these requests, interacting with the Database to fetch or store data, and with Kafka to publish events.
+- The Kafka system can process these events in real-time, or they can be consumed later for processing.
+
+Here's a basic ASCII diagram to illustrate the architecture:
+
+```
 +---------------+        +-------------------+
 | User Interface| <----> |Application Server|
 +---------------+        +-------------------+
@@ -34,6 +56,9 @@ Kafka events are produced when a user registers, a room is booked, and a payment
                +--------+  |  +------------+ |
                            |                 |
                            +-----------------+
+```
+
+Remember, this is a high-level view of the system architecture and could be refined or expanded based on specific project requirements.
 
 
 ## Prerequisites
