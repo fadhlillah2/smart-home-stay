@@ -3,6 +3,7 @@ package com.komodo.serviceone.service;
 import com.komodo.serviceone.entity.User;
 import com.komodo.serviceone.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,6 +13,15 @@ public class UserService {
 
     @Autowired
     private UserRepository repository;
+
+    @Autowired
+    private KafkaTemplate<String, String> kafkaTemplate;
+
+    public User registerUser(User user) {
+        User savedUser = repository.save(user);
+        kafkaTemplate.send("user.register", "User registered with id " + savedUser.getId());
+        return savedUser;
+    }
 
     public User saveEmployee(User user) {
         return repository.save(user);

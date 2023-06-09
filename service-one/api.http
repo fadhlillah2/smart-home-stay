@@ -24,8 +24,19 @@ POST http://localhost:8080/users
 Content-Type: application/json
 
 {
-  "name": "aby1",
-  "role": "se1"
+  "name": "aby2",
+  "role": "se"
+}
+###
+POST http://localhost:8080/users/register
+Content-Type: application/json
+
+{
+"name": "aby22",
+"role": "se"
 }
 
 ###
+
+
+POST http://localhost:8080/checkin/1/2
