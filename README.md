@@ -15,7 +15,7 @@ Kafka events are produced when a user registers, a room is booked, and a payment
 
 ## Prerequisites
 
-- Java 11
+- Java 11 or higher
 - Spring Boot
 - Spring Data JPA
 - Apache Kafka
